@@ -3,6 +3,11 @@ def greetWorld():
 	
 	print("Hello World")
 	
+def printNumbers(n):
+	for i in range(n):
+		print(i)
 
 
-greetWorld();
+greetWorld()
+printNumbers(10)
+
